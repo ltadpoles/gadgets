@@ -1,5 +1,4 @@
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -22,7 +21,7 @@ Page({
       title: '',
     });
    wx.cloud.callFunction({
-      name: 'quickstartFunctions',
+      name: 'toolFunctions',
       config: {
         env: this.data.envId
       },

@@ -10,12 +10,12 @@ exports.main = async (event, context) => {
   try {
     // 遍历修改数据库信息
     for (let i = 0; i < event.data.length; i++) {
-      await db.collection('sales').where({
+      await db.collection('tool').where({
         _id: event.data[i]._id
       })
         .update({
           data: {
-            sales: event.data[i].sales
+            tool: event.data[i].tool
           },
         });
     }

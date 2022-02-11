@@ -9,10 +9,10 @@ const $ = db.command.aggregate;
 // 聚合记录云函数入口函数
 exports.main = async (event, context) => {
   // 返回数据库聚合结果
-  return db.collection('sales').aggregate()
+  return db.collection('tool').aggregate()
     .group({
       _id: '$region',
-      sum: $.sum('$sales')
+      sum: $.sum('$tool')
     })
     .end();
 };

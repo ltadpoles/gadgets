@@ -1,1 +1,1 @@
-"D:\wx\Î¢ÐÅweb¿ª·¢Õß¹¤¾ß\cli.bat" cloud functions deploy --e cloud1-1gq58d7y4ff7510b --n quickstartFunctions --r --project "D:\wx\gadgets" --report_first --report
+"D:\wx\Î¢ï¿½ï¿½webï¿½ï¿½ï¿½ï¿½ï¿½ß¹ï¿½ï¿½ï¿½\cli.bat" cloud functions deploy --e cloud1-1gq58d7y4ff7510b --n toolFunctions --r --project "D:\wx\gadgets" --report_first --report

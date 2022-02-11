@@ -1,0 +1,46 @@
+{
+  "toolList": [{
+      "name": "手机号码归属地查询",
+      "url": "/pages/phone/index"
+    }, {
+      "name": "火车查询",
+      "url": "/pages/train/index"
+    },
+    {
+      "name": "全国天气预报",
+      "url": "/pages/weather/index"
+    },
+    {
+      "name": "IP查询",
+      "url": "/pages/ip/index"
+    },
+    {
+      "name": "省份证号码查询",
+      "url": "/pages/idcard/index"
+    },
+    {
+      "name": "星座运势",
+      "url": "/pages/constellation/index"
+    },
+    {
+      "name": "历史上的今天",
+      "url": "/pages/history/index"
+    },
+    {
+      "name": "成语大全",
+      "url": "/pages/idiom/index"
+    },
+    {
+      "name": "脑筋急转弯",
+      "url": "/pages/twists/index"
+    },
+    {
+      "name": "绕口令",
+      "url": "/pages/tongue/index"
+    },
+    {
+      "name": "笑话大全",
+      "url": "/pages/joke/index"
+    }
+  ]
+}
