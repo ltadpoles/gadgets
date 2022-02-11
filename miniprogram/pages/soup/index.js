@@ -1,18 +1,30 @@
-// pages/phone/index.js
+// pages/soup/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    soupData: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
+    this.getSoup()
+  },
+
+  getSoup() {
+    let that = this
+    wx.request({
+      url: 'https://api.muxiaoguo.cn/api/dujitang?api_key=1263c25ade5c8359',
+      success(res) {
+        that.setData({
+          soupData: res.data.data
+        })
+      }
+    })
   },
 
   /**

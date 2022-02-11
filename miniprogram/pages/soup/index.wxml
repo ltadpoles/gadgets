@@ -1,0 +1,9 @@
+<view class="soup">
+  <view class="comment">
+    <view class="content">{{soupData.comment}}</view>
+    <!-- <view class="from">from {{soupData.from}}</view> -->
+  </view>
+  <view class="button">
+    <view class="button-content" bindtap="getSoup">再来一碗</view>
+  </view>
+</view>

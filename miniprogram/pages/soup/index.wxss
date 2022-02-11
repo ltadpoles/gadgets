@@ -1,0 +1,42 @@
+.soup {
+  padding: 0 30rpx;
+
+}
+
+.comment {
+  border-radius: 12rpx;
+  padding: 20rpx;
+  line-height: 54rpx;
+  font-size: 32rpx;
+  margin-top: 20vh;
+  box-shadow: inset;
+}
+
+.content {
+  font-weight: 600;
+}
+
+.from {
+  text-align: right;
+  font-size: 24rpx;
+  font-style: italic;
+  color: #999;
+  margin-top: 18rpx;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100rpx;
+}
+
+.button-content {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background-color: rgb(24 179 24);
+  color: #fff;
+  text-align: center;
+  line-height: 120rpx;
+  font-size: 24rpx;
+}
