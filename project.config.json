@@ -34,7 +34,7 @@
     "packNpmManually": true,
     "packNpmRelationList": [{
       "packageJsonPath": "./package.json",
-      "miniprogramNpmDistDir": "./"
+      "miniprogramNpmDistDir": "./miniprogram"
     }],
     "minifyWXSS": true,
     "disableUseStrict": false,
