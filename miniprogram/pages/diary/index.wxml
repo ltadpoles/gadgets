@@ -1,0 +1,13 @@
+<div class="diary">
+  <image class="diary-img" src="../../static/images/tg.jpg"></image>
+  <view class="diary-content">
+    <view class="diary-header">
+      <view class="diary-time">{{date}}</view>
+      <!-- <view class="diary-week">星期二</view> -->
+    </view>
+    <view class="diary-content">{{diaryData}}</view>
+    <view class="button">
+      <view class="button-content" bindtap="getDiary">再换一个</view>
+    </view>
+  </view>
+</div>
