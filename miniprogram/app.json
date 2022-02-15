@@ -3,13 +3,29 @@
     "pages/index/index",
     "pages/getOpenId/index",
     "pages/soup/index",
-    "pages/joke/index"
+    "pages/joke/index",
+    "pages/about/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/soup/index",
+        "text": "鸡汤",
+        "iconPath": "./static/images/dusu.png",
+        "selectedIconPath": "./static/images/dusu.png"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "text": "我的",
+        "iconPath": "./static/images/wode.png",
+        "selectedIconPath": "./static/images/wode.png"
+      }
+    ]
   },
   "entryPagePath": "pages/soup/index",
   "sitemapLocation": "sitemap.json",

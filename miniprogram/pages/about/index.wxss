@@ -1,0 +1,29 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .btn {
+  background-color: #59ab59;
+  color: #fff;
+}
+.about {
+  padding: 40rpx 0;
+}
+.about .about-header {
+  text-align: center;
+}
+.about .about-list {
+  margin-top: 60rpx;
+}
+.about .about-list .list-sty {
+  padding: 16rpx 30rpx;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+.about .about-list .list-sty:last-child {
+  border-bottom: 1px solid #eee;
+}

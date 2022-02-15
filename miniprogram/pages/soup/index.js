@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    soupData: {}
+    soupData: {},
+    like: false
   },
 
   /**
@@ -24,6 +25,36 @@ Page({
           soupData: res.data.data
         })
       }
+    })
+  },
+
+  // 复制
+  fuzhi() {
+    let that = this
+    console.log(that.data.soupData)
+    wx.setClipboardData({
+      data: that.data.soupData.comment,
+      success (res) {
+        console.log(res)
+        // wx.getClipboardData({
+        //   success (res) {
+        //     console.log(res.data) // data
+        //   }
+        // })
+      }
+    })
+  },
+
+  share() {
+    wx.showShareMenu({
+      withShareTicket: true,
+      menus: ['shareAppMessage', 'shareTimeline']
+    })
+  },
+
+  like() {
+    this.setData({
+      like: !this.data.like
     })
   },
 

@@ -34,3 +34,16 @@
   line-height: 120rpx;
   font-size: 24rpx;
 }
+.soup .share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80rpx;
+  padding: 0 40rpx;
+}
+.soup .share .btn {
+  background-color: #fff;
+}
+.soup .active {
+  color: red;
+}

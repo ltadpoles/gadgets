@@ -6,4 +6,16 @@
   <view class="button">
     <view class="button-content" bindtap="getSoup">再来一碗</view>
   </view>
+
+  <view class="share">
+    <view class="fuzhi">
+      <span class="iconfont icon-fuzhi" bindtap="fuzhi"></span>
+    </view>
+    <view class="share-btn">
+      <button class="iconfont icon-fenxiang btn" open-type="share"></button>
+    </view>
+    <view class="like">
+      <span class="iconfont icon-icon {{like ? 'active' : ''}}" bindtap="like"></span>
+    </view>
+  </view>
 </view>

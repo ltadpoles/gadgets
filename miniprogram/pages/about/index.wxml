@@ -1,0 +1,27 @@
+<view class="login" wx:if="{{!nickName}}">
+  <button class="btn" bindtap="getUserInfo">点击登录</button>
+</view>
+
+<view class="about" wx:if="{{nickName}}">
+  <view class="about-header">
+    <view class="image">
+      <image src="{{avatar}}" style="height: 160rpx; width: 160rpx; border-radius: 50%;"></image>
+    </view>
+    <view class="nickName">{{nickName}}</view>
+  </view>
+
+  <view class="about-list">
+    <view class="soup list-sty">
+      <view><span class="iconfont icon-xihuan" style="margin-right: 10rpx;"></span>最爱</view>
+      <view>
+        <span class="iconfont icon-xiangyou"></span>
+      </view>
+    </view>
+    <view class="about-c list-sty">
+      <view><span class="iconfont icon-guanyu" style="margin-right: 10rpx;"></span>关于</view>
+      <view>
+        <span class="iconfont icon-xiangyou"></span>
+      </view>
+    </view>
+  </view>
+</view>
